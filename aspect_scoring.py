@@ -3,8 +3,8 @@ import pandas as pd
 from tqdm import tqdm
 import torch
 from transformers import pipeline
-INPUT_CSV = r"C:\Users\Naveen Manoharan\netflix-cinephile-metric\data\raw\processed\aspect_sentences.csv"
-OUTPUT_CSV = r"C:\Users\Naveen Manoharan\netflix-cinephile-metric\data\raw\processed\aspect_scores.csv"
+INPUT_CSV = r"whatever man"
+OUTPUT_CSV = r"or woman"
 
 
 BATCH_SIZE = 32 
@@ -71,3 +71,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
