@@ -6,8 +6,8 @@ from tqdm import tqdm
 
 nltk.download("punkt")
 from nltk.tokenize import sent_tokenize
-INPUT_CSV = r"C:\Users\Naveen Manoharan\netflix-cinephile-metric\data\raw\imdb_reviews.csv"
-OUTPUT_CSV = r"C:\Users\Naveen Manoharan\netflix-cinephile-metric\data\raw\processed\imdb_sentences.csv"
+INPUT_CSV = r"whatever man"
+OUTPUT_CSV = r"or woman"
 MIN_WORDS = 8
 MAX_WORDS = 40
 EMOJI_PATTERN = re.compile(
@@ -73,4 +73,5 @@ def main():
     print(f"Total valid sentences: {len(out_df)}")
 
 if __name__ == "__main__":
+
     main()
